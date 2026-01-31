@@ -12,7 +12,7 @@ namespace Es2
             Console.WriteLine("3. Difficile (numeri da 1 a 20)");
             string scelta = Console.ReadLine() ?? "";
 
-            int maxrnd = 5;
+            int maxrnd = 0;
             if(scelta == "1")
             {
                 maxrnd = 5;
